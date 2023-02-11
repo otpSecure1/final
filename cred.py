@@ -9,8 +9,8 @@ twiliosmsnumber = '+14707783942'
 API_TOKEN = "566910982:AAHSfr1aUNKPhUAuFy9i8ugYjGwNxSx2Wvs"
 
 #Host URL
-callurl = 'https://otp2.ShivamOjha5.repl.co'
-twiliosmsurl = 'https://https://otp2.ShivamOjha5.repl/sms'
+callurl = 'https://bot1tele1.herokuapp.com/'
+twiliosmsurl = 'https://bot1tele1.herokuapp.com/sms'
 
 
 
