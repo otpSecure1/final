@@ -1,22 +1,14 @@
-#Twilio Details
+import os
 
-account_sid = 'AC08999f7b0733cbe0dcee3253a079ac44'
-auth_token = 'e7d496b407935acef0b6626921d0bc00'
-twilionumber = '+14707783942'
-twiliosmsnumber = '+14707783942'
+#Twilio Details
+account_sid = os.environ.get('ACCOUNT_SID')
+auth_token = os.environ.get('AUTH_TOKEN')
+twilionumber = os.environ.get('TWILIO_NUMBER')
+twiliosmsnumber = os.environ.get('TWILIO_SMS_NUMBER')
 
 #FC Bot
-API_TOKEN = "566910982:AAHSfr1aUNKPhUAuFy9i8ugYjGwNxSx2Wvs"
+API_TOKEN = os.environ.get('API_TOKEN')
 
 #Host URL
-callurl = 'https://bot1tele1.herokuapp.com/'
-twiliosmsurl = 'https://bot1tele1.herokuapp.com/sms'
-
-
-
-
-
-
-
-
-
+callurl = os.environ.get('CALL_URL')
+twiliosmsurl = os.environ.get('TWILIO_SMS_URL')
