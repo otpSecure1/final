@@ -1,14 +1,17 @@
 import os
 
 #Twilio Details
-account_sid = os.environ.get('ACCOUNT_SID')
-auth_token = os.environ.get('AUTH_TOKEN')
-twilionumber = os.environ.get('TWILIO_NUMBER')
-twiliosmsnumber = os.environ.get('TWILIO_SMS_NUMBER')
+account_sid = os.environ.get(account_sid)
+auth_token = os.environ.get(auth_token)
+twilionumber = os.environ.get(twilionumber)
+twiliosmsnumber = os.environ.get(twiliosmsnumber)
 
 #FC Bot
-API_TOKEN = os.environ.get('API_TOKEN')
+API_TOKEN = os.environ.get(API_TOKEN)
 
 #Host URL
-callurl = os.environ.get('CALL_URL')
-twiliosmsurl = os.environ.get('TWILIO_SMS_URL')
+callurl = os.environ.get(callurl)
+twiliosmsurl = os.environ.get(twiliosmsurl)
+
+
+
